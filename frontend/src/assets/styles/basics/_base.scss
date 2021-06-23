@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+// ::selection {
+//     background-color: $clr1;
+//     color: $clr6;
+// }
+
+html {
+    font-family: roboto;
+    // line-height: 1.6;
+    color: $clr2;
+}
+html,
+body{
+    height: 100%;
+    margin: 0;
+
+}
+
+body {
+    font-size: rem(16px);
+    // min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.6em;
+    line-height: 1;
+}
+
+.app{
+    flex-grow: 1;
+}
+
+// section, main, footer {
+//     padding: 5px;
+
+// }
+//to change
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0 0 0;
+    // max-width: 40ch;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+// a:hover {
+//     text-decoration: underline;
+// }
+
+button,
+label{
+    cursor: pointer;
+    font-family: inherit;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    flex-shrink: 0;
+}

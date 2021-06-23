@@ -1,0 +1,34 @@
+.stay-preview{
+    // font-size: 0.7rem;
+    margin-bottom: 15px;
+    i{
+        color: $clr1;
+    }
+    img{
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    position: relative;
+    object-fit: cover;
+    }
+}
+
+.stay-rate{
+    :not(:last-child){
+        margin-right: 4px;
+    }
+    .reviews-amount{
+        color: $clr3;
+    }
+}
+
+.save-btn{
+    position: relative;
+    z-index: 1;
+    top: -210px;
+    right: -195px;
+    i{
+        color: #fff;
+    }
+}
+

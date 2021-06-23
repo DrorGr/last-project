@@ -1,0 +1,34 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+@import "setup/typography";
+
+// Basics
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/base";
+@import "basics/links";
+@import "basics/forms";
+
+
+// Components
+@import "cmps/Header";
+@import "cmps/stayFilter";
+@import "cmps/stayList";
+@import "cmps/stayPreview";
+@import "cmps/navbar";
+@import "cmps/nearby";
+@import "cmps/anywhere";
+@import "cmps/getInspired";
+@import "cmps/becomeHost";
+@import "cmps/amenities";
+@import "cmps/selectDates";
+
+
+
+//Pages
+@import "pages/stayDetails";
+@import "pages/LoginSignup";
+@import "pages/home";
+
